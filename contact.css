@@ -2,12 +2,14 @@
     margin: 0;
     padding: 0;
 }
-body{
-    background-image: url(pexels-photo-3721941.jpeg);
-    background-size: cover;
-    background-position: relative;
-   
-}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
 .container{
     width:100%;
 }

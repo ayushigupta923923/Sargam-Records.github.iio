@@ -67,8 +67,8 @@ img:hover{
 }
 @media screen and (max-width: 500px) {
     img{
-        max-height: 50px;
-    max-width: 50px;
+        max-height: 150px;
+    max-width: 150px;
     }
 }
 

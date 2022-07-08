@@ -33,6 +33,26 @@ body{
 .navbar ul li a:hover{
     color: white;
 }
+@media screen and (max-width: 500px) {
+           .content{
+            margin-left: 20px;
+            margin-right: 20px;
+            animation-name: container;
+            animation-duration: 3.5s;
+            animation-direction: backwards;
+           }
+           @keyframes container{
+            from{
+                margin-left: 0px;
+                margin-right: 0px;
+
+            }
+            to{
+                margin-left:20;
+                margin-right: 20px;
+            }
+        }
+        }
 h1{
     color: cyan;
     display: flex;

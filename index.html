@@ -36,19 +36,5 @@
         <source src="Final Audio.mp3" type="audio.mp3">
        </audio>
 </body>
-<script>
-    let mySong = document.getElementById("mySong");
-let icon = document.getElementById("icon");
-
-icon. addEventListener("click", function(){
-    if(mySong.paused){
-        mySong.play();
-        icon.src="play.png";
-    }
-    else{
-        mySong.pause();
-        icon.src="pause.png";
-    }
-});
-</script>
+<script src="brain.js"></script>
 </html>

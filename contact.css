@@ -51,31 +51,6 @@ h1{
     margin-left: 0px;
     }
 }
-        /* .content{
-            animation-name: container;
-    animation-duration: 3.5s;
-    animation-direction: backwards;
-        }
-        @keyframes container{
-            from{
-                margin-left: 0px;
-                margin-right: 0px;
-
-            }
-            to{
-                margin-left:80px;
-                margin-right: 80px;
-            }
-        }
-        .content ul li{
-            list-style: none;
-            display: flex;
-            align-items: center;
-            margin-left: 80px ;
-            margin-right: 80px;
-            font-size: 30px;
-            color: white;
-        } */
         .content{
             font-size: 30px;
             border-top: 2px solid cyan;
@@ -84,8 +59,8 @@ h1{
            border-right: 2px solid black;
            border-left: 2px solid black;
             font-family:sans-serif;  
-            margin-left: 80px;  
-            margin-right: 80px;
+            margin-left: 100px;  
+            margin-right: 100px;
             animation-name: container;
     animation-duration: 3.5s;
     animation-direction: backwards;
@@ -97,8 +72,8 @@ h1{
 
             }
             to{
-                margin-left:80px;
-                margin-right: 80px;
+                margin-left:100px;
+                margin-right: 100px;
             }
         }
         .content ul li{

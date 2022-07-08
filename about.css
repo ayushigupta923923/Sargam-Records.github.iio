@@ -94,6 +94,11 @@ to{
            animation-direction: backwards;
            animation-duration: 3.5s;
     }
+    .content{
+        margin-top:40px;}
+    h1{
+            margin-top: 20px;
+           }
     @keyframes p{
         from{
            margin-right: 0px;

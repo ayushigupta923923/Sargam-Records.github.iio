@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(pexels-photo-3721941.jpeg);
+    background-size: cover;
+    background-position: relative;
+   
+}
+.container{
+    width:100%;
+}
+.navbar{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 5px ;
+    font-family: 'Poppins', sans-serif;;
+}
+.navbar ul li a
+{
+    text-decoration: none;
+    font-weight: bold;
+    color: cyan;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar ul li a:hover{
+    color: white;
+}
+h1{
+    color: cyan;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    animation-name: h1;
+    animation-direction: backwards;
+   animation-duration: 3.5s;
+   margin-top: 15px;
+}
+@keyframes h1{
+    from{
+        margin-left: 200px;
+    }
+    to{
+    margin-left: 0px;
+    }
+}
+        .content{
+            margin-top: 20px;
+            border-top: 2px solid cyan;
+            border-bottom: 2px solid cyan;
+           border-radius: 10px;
+           border-right: 2px solid black;
+           border-left: 2px solid black;
+            font-family:sans-serif;  
+            margin-left: 95px;  
+            margin-right: 95px;
+            animation-name: container;
+    animation-duration: 3.5s;
+    animation-direction: backwards;
+        }
+        @keyframes container{
+            from{
+                margin-left: 0px;
+                margin-right: 0px;
+
+            }
+            to{
+                margin-left:95px;
+                margin-right: 95px;
+            }
+        }
+        .content ul li{
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            padding: 15px;
+            color: mintcream;
+            font-size: 15px;
+    font-family: sans-serif;
+    
+        }
+        
+        a{
+            
+            font-size: 25px;
+            text-decoration: none;
+            color: cyan;
+            
+        }
+        a:hover{
+            color: white;
+        }
+        @media screen and (max-width: 500px) {
+           .content{
+            margin-left: 10px;
+            margin-right: 10px;
+            animation-name: container;
+            animation-duration: 3.5s;
+            animation-direction: backwards;
+           }
+           @keyframes container{
+            from{
+                margin-left: 0px;
+                margin-right: 0px;
+
+            }
+            to{
+                margin-left:10;
+                margin-right: 10px;
+            }
+        }
+        }
+        
+       
